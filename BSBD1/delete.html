@@ -1,0 +1,28 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Delete form</title>
+</head>
+<body>
+    <h2 class="title">Форма для удаления</h2>
+    <form action="delete.php" method="GET" class="form">
+        
+        <div class="form1">
+            Параметр поиска: 
+            <select name="parametr" class="input">
+                <option value="ФИО">Имя</option>
+                <option value="EMAIL">Почта</option>
+                <option value="Телефон">Номер телефона</option>
+		<option value="Вес">Вес</option>
+            </select>
+        </div>
+        <div class="form2">
+            Введите данные для поиска:
+                <input type="text" name="arg" class="input"> 
+        </div>
+        <input type="submit" value="Delete" class="btn" style="width: 200px; align-self:baseline; margin-top: 47px;">
+    </form>
+</body>
+</html>

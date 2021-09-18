@@ -1,0 +1,46 @@
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<h2 class="title">Добавление бодибилдера: </h2>
+<form action="reg.php" method="GET" class="form">
+<div class="form1">
+
+ФИО: <input type="text" name="user-full-name" class="input">
+<p>
+<label for="date">Дата рождения: </label>
+<input type="date" id="date" name="date"/>
+</p>
+E-mail: <input type="email" name="email" class="input">
+<p>
+	</p>
+Возраст: <input type="number" min="1" max="100" name="age" class="input">
+Ссылка на соц. сеть: <input type="url" name="url" class="input">
+Номер телефона: <input type="tel" name="tel-number" class="input"
+<p>
+</p>
+Любимый цвет: <input type="color" name="color" class="input">
+Открытый ключ: <input type="text" name="open_key" class="input">
+Город: <input type="text" name="city" class="input">
+<p>
+</p>
+Жим: <input type="text" name="jim" class="input">
+Рост: <input type="text" name="height" class="input">
+<div>
+</div>
+<p>
+</p>
+Присед:
+<input type="number" name="prised" value="0" min="0" max="200" step="1">
+Вес: <input type="text" name="weight" class="input">
+<p>
+</p>
+<input type="submit" value="Отправить" class="btn">
+</div>
+</form>
+</body>
+</html>
